@@ -25,12 +25,13 @@
 							<li class="submenu">
 								<a href="#">MENU</a>
 								<ul>
-									<li><a href="#">Who are we?</a></li>
-									<li><a href="#">Competition</a></li>
-									<li><a href="#">Schedule</a></li>
-									<li><a href="#">Prizes</a></li>
-									<li><a href="#">Judges</a></li>
-									<li><a href="#">Contact</a></li>
+									<li><a href="#main">Who are we?</a></li>
+									<li><a href="#theme">Theme</a></li>
+									<li><a href="#rules">Rules</a></li>
+									<li><a href="#sponsors">Sponsors</a></li>
+									<li><a href="#judges">Judges</a></li>
+									<li><a href="#schedule">Schedule</a></li>
+									<li><a href="#faq">FAQ</a></li>
 								</ul>
 							</li>
 							<li><a href="#" class="button primary">Registration is Coming Up soon!</a></li>
@@ -40,35 +41,43 @@
 
 			<!-- Banner -->
 				<section id="banner">
-					<div class=" col-6   disabled">
-						<img class="logo" src="./images/logo.png">
-					</div>
 					<!--
 						".inner" is set up as an inline-block so it automatically expands
 						in both directions to fit whatever's inside it. This means it won't
 						automatically wrap lines, so be sure to use line breaks where
 						appropriate (<br />).
 					-->
-					<div class="inner">
+					<div class="row">
+						<div class="col-1 col-1-normal col-1-narrow col-0-narrower black"> </div>
+						<div class="col-4 col-4-normal col-4-narrow col-12-narrower black">
+							<img class="logo" src="./images/logo.png">
+						</div>
+						<div class="col-6 col-7-normal col-7-narrow col-12-narrower black">
+							<div class="inner">
 
-						<header>
-							<h2>MTA HACK 2019</h2>
-						</header>
-						<p>
-							<strong>When:</strong> <br>
-							April 11th - 12th, 2019
-						</p>
-						<p>
-							<strong>What:</strong> <br>
-							Fitness & Healthcare
-						</p>
-						<p>
-							<strong>Where:</strong> <br>
-							The Academic College of Tel Aviv Yaffo
-						</p>
+								<header>
+									<h2>MTA HACK 2019</h2>
+								</header>
+								<p>
+									<strong>When:</strong> <br>
+									April 11th - 12th, 2019
+								</p>
+								<p>
+									<strong>Theme:</strong> <br>
+									Fitness & Healthcare
+								</p>
+								<p>
+									<strong>Where:</strong> <br>
+									The Academic College of TLV
+								</p>
+							</div>
+						</div>
+						<div class="col-1 col-0-normal col-0-narrow col-0-narrower black">
+						</div>
 					</div>
-
+					
 				</section>
+
 
 			<!-- Main -->
 				<article id="main">
@@ -83,14 +92,15 @@
 					</header>
 
 					<!-- Theme -->
-					<section class="wrapper style2 container special-alt">
+					<section id="theme" class="wrapper style2 container special-alt">
+
 						<div class="row gtr-50">
 							<div class="col-8 col-12-narrower">
 
 								<header>
-									<h2>Explanation why health and fitenss <strong>icons</strong> that visualize what you’re all about. or just take up space. your call bro.</h2>
+									<h2>Explanation why <strong>fitness and healthcare</strong> is this year's theme, what to make better etc. </h2>
 								</header>
-								<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu comteger ut fermentum lorem. Lorem ipsum dolor sit amet. Sed tristique purus vitae volutpat ultrices. eu elit eget commodo. Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo.</p>
+								<p>Another paragraph that continues the explanation. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quaerat error aut perspiciatis dolore rerum, harum eos quidem a accusantium magni, ipsa, expedita tempora vel delectus quas enim fugiat nisi..</p>
 								<footer>
 									<ul class="buttons">
 										<li><a href="#" class="button">Find Out More</a></li>
@@ -113,8 +123,8 @@
 						</div>
 					</section>
 
-					<!-- Prizes -->
-					<section class="wrapper style1 container special">
+					<!-- Rules -->
+					<section id="rules" class="wrapper style1 container special">
 
 						<header class="major">
 							<h2>The <strong>Rules</strong></h2>
@@ -154,7 +164,7 @@
 					</section>
 
 					<!-- Sponsors -->
-					<section class="wrapper style3 container special">
+					<section id="sponsors" class="wrapper style3 container special">
 
 						<header class="major">
 							<h2>Our COOL <strong>sponsors</strong></h2>
@@ -182,19 +192,19 @@
 						<div class="row">
 							<div class="col-6 col-12-narrower">
 								<section>
-									<a href="#" class="img-link" target="_blank"><img src="./images/mta.png" alt="" /></a>
+									<a href="https://www.mta.ac.il/" class="img-link" target="_blank"><img src="./images/mta.png" alt="" /></a>
 								</section>
 							</div>
 							<div class="col-6 col-12-narrower">
 								<section>
-									<a href="#" class="img-link" target="_blank"><img src="./images/logo2.jpg" alt="" /></a>
+									<a href="https://www.aguda-mta.co.il/" class="img-link" target="_blank"><img src="./images/aguda.png" alt="" /></a>
 								</section>
 							</div>
 						</div>
 					</section>
 
 					<!-- Judges -->
-					<section class="wrapper style1 container special">
+					<section id="judges" class="wrapper style1 container special">
 						<header class="major">
 								<h2>Our <strong>Judges</strong></h2>
 						</header>
@@ -302,7 +312,7 @@
 				</section>
 
 				<!-- FAQs -->
-				<section class="wrapper style3 container special">
+				<section id="faq" class="wrapper style3 container special">
 
 					<header class="major">
 						<h2><strong>FAQ</strong></h2>
@@ -315,16 +325,16 @@
 								<header>
 									<h3>Do I need to bring anything?</h3>
 								</header>
-								<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+								<p>Just your laptop, we'll take care of anything else.</p>
 							</section>
 						</div>
 						<div class="col-4 col-6-normal col-6-narrower">
 							<section>
 								<a href="" class="image featured disabled"><img src="./images/event2.jpg" alt="" /></a>
 								<header>
-									<h3>Do I need to bring anything?</h3>
+									<h3>What about food?</h3>
 								</header>
-								<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+								<p>There will be lots of it.</p>
 							</section>
 						</div>
 						<div class="col-4 col-6-normal col-6-narrower">
@@ -333,7 +343,7 @@
 								<header>
 									<h3>Do I need to bring anything?</h3>
 								</header>
-								<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+								<p>Just your laptop, we'll take care of anything else.</p>
 							</section>
 						</div>
 						<div class="col-4 col-6-normal col-6-narrower">
@@ -342,7 +352,7 @@
 								<header>
 									<h3>What if I don't have the required skills?</h3>
 								</header>
-								<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+								<p>Check out our pre-hackathon workshops <a href="#">here</a>.</p>
 							</section>
 						</div>
 						<div class="col-4 col-6-normal col-6-narrower">
@@ -351,7 +361,7 @@
 								<header>
 									<h3>What do I get?</h3>
 								</header>
-								<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+								<p>A lot of fun, meeting new people, recruiting to some of the best companies, experience of making a project and collaborating, and much more.</p>
 							</section>
 						</div>
 						<div class="col-4 col-6-normal col-6-narrower">
@@ -360,7 +370,7 @@
 								<header>
 									<h3>What about food?</h3>
 								</header>
-								<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+								<p>There will be lots of it.</p>
 							</section>
 						</div>
 					</div>

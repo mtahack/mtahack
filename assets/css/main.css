@@ -3,32 +3,45 @@
 
 /* Edites CSS */
 .logo {
-  width: 40%;
-  display: inline;
-  float: left;
-  /* position: relative;
-  left: 100px;
-  top: -100px; */
+  width:100%;
+  display: inline-block;
+  vertical-align: middle;
 }
+
 
 #logo {
 	opacity: 0;
 }
 
 .inner p {
-  padding-top: 15px;
+  padding-top: 10px;
 }
 
 .judge-name {
   text-transform: none !important;
+  padding-top: 10px;
+  margin-bottom: 5px;
 }
 
 .judge-image {
-  margin: 0 auto !important;
-  border-radius: 50% !important;
-  width: 200px !important;
-  height: 200px !important;
+  margin: 0 auto;
+  border-radius: 50%;
+  max-width: 200px;
+  max-height: 200px;
   overflow:hidden;
+  vertical-align: top;
+  -moz-transition: all 0.1s ease-in-out;
+  -webkit-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+
+}
+
+.judge-image:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 1px 9px -1px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 1px 1px 9px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 1px 9px -1px rgba(0,0,0,0.75);
 }
 
 .img-link {
@@ -46,7 +59,7 @@
 }
 
  .img-link img:hover {
-   filter: none;
+  filter: none;
   transform: scale(1.1);
 
 }
@@ -74,7 +87,7 @@
     -ms-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     background: rgba(52, 27, 43, 0.8);
-    width: 60%;
+    width: 70%;
     color: #fff;
     display: inline-block !important;
     opacity: 0;
@@ -306,6 +319,10 @@ input, select, textarea {
 					width: 735px;
 				}
 
+      .logo {
+        padding-top: 50px;
+      }
+
 		}
 
 		@media screen and (max-width: 980px) {
@@ -322,6 +339,13 @@ input, select, textarea {
 
 		@media screen and (max-width: 840px) {
 
+      .logo {
+        width: 60%;
+        margin: 0 auto;
+        padding-bottom: 0;
+        padding-top: 0;
+      }
+
 			.container {
 				width: 95%;
 			}
@@ -329,6 +353,7 @@ input, select, textarea {
 				.container.medium {
 					width: 95%;
 				}
+
 
 		}
 
@@ -388,6 +413,10 @@ input, select, textarea {
 		.row > .imp {
 			order: -1;
 		}
+
+    .row > .col-0 {
+      display: none;
+    }
 
 		.row > .col-1 {
 			width: 8.3333333333%;
@@ -877,6 +906,10 @@ input, select, textarea {
 					order: -1;
 				}
 
+        .row > .col-0-normal {
+					display: none;
+				}
+
 				.row > .col-1-normal {
 					width: 8.3333333333%;
 				}
@@ -1120,6 +1153,10 @@ input, select, textarea {
 
 				.row > .imp-narrow {
 					order: -1;
+				}
+
+        .row > .col-0-narrow {
+          display: none;
 				}
 
 				.row > .col-1-narrow {
@@ -1366,6 +1403,10 @@ input, select, textarea {
 				.row > .imp-narrower {
 					order: -1;
 				}
+
+        .row > .col-0-narrower {
+          display: none;
+        }
 
 				.row > .col-1-narrower {
 					width: 8.3333333333%;
@@ -2072,7 +2113,7 @@ input, select, textarea {
 			cursor: default;
 			display: block;
 			margin: 0 0 1.5em 0;
-			opacity: 0.95;
+			opacity: 0.35;
 			text-align: center;
 		}
 
@@ -2298,11 +2339,12 @@ input, select, textarea {
 		.wrapper.style2 {
 			background-color: #83d3c9;
 			background-image: url("images/overlay.png"), url("images/overlay.png"), url("images/overlay.png"), url("../../images/bg2.jpg");
-			background-position: bottom left, top right;
-			/*background-repeat: no-repeat, no-repeat;*/
-			/*background-size: 25em, 25em;*/
-			background-size: 100%;
-
+      background-position: bottom left, bottom right, top left, top center;
+      background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
 			color: #fff;
 		}
 
@@ -2880,7 +2922,7 @@ input, select, textarea {
 				}
 
 				.wrapper.style2 {
-					background-size: 15em;
+					/* background-size: 15em; */
 				}
 
 				.wrapper.style4 {
@@ -2942,7 +2984,7 @@ input, select, textarea {
 		/* Section/Article */
 
 			section {
-				margin: 1em 0 1em 0;
+				margin: 0em 0 1em 0;
 			}
 
 				section:first-child {
@@ -2993,9 +3035,28 @@ input, select, textarea {
 
 		/* Banner */
 
-			#banner {
-				margin: 0;
-			}
+    #banner {
+      background-size: 10em, 10em, auto, cover;
+      padding: 6em 0;
+    }
+
+      #banner .inner {
+        background: none;
+        display: block;
+        padding: 0 1.5em;
+      }
+
+        #banner .inner header h2 {
+          font-size: 1.5em;
+        }
+
+        #banner .inner p {
+          text-align: center;
+        }
+
+        #banner .inner br {
+          display: none;
+        }
 
 		/* Wrapper */
 
@@ -3329,8 +3390,8 @@ input, select, textarea {
 				}
 
 				.wrapper.style2 {
-					background-size: 10em;
-					padding: 2.25em 1.5em;
+					/* background-size: 10em;
+					padding: 2.25em 1.5em; */
 				}
 
 				.wrapper.style4 {
