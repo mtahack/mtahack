@@ -8,6 +8,13 @@
   vertical-align: middle;
 }
 
+#faq h3 {
+  font-size: 1em;
+}
+
+#faq p {
+  font-size: 0.9em;
+}
 
 #logo {
 	opacity: 0;
@@ -21,6 +28,31 @@
   text-transform: none !important;
   padding-top: 10px;
   margin-bottom: 5px;
+  color: #3fb1a3;
+}
+
+h3 a {
+  color: #3fb1a3 !important;
+  text-decoration: underline !important;
+}
+
+.logo-old {
+  max-width: 150px;
+}
+
+.facebook-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.facebook-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 
 .judge-image {
@@ -34,7 +66,6 @@
   -webkit-transition: all 0.1s ease-in-out;
   -ms-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
-
 }
 
 .judge-image:hover {
@@ -58,7 +89,15 @@
   max-width: 300px;
 }
 
- .img-link img:hover {
+.platinum img {
+  max-width: 380px;
+}
+
+.bronze img {
+  max-width: 200px;
+}
+
+.img-link img:hover {
   filter: none;
   transform: scale(1.1);
 
@@ -2100,12 +2139,12 @@ input, select, textarea {
 			  opacity: 0.8;
 			}
 
-			.icon.circle.fa-dribbble {
-			    background: #da83ae;
+			.icon.circle.fa-envelope {
+			    background: #db6b67;
 			    color: #fff;
 			}
 
-			.icon.circle.fa-dribbble:hover {
+			.icon.circle.fa-envelope:hover {
 			  opacity: 0.8;
 			}
 
