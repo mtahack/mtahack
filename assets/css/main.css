@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
 
 /* Edites CSS */
+html {
+  scroll-behavior: smooth;
+}
+
 .logo {
   width:100%;
   display: inline-block;
@@ -94,11 +98,17 @@ h3 a {
 }
 
 .platinum img {
-  max-width: 380px;
+  max-width: 500px;
+  padding-bottom: 50px;
 }
 
 .bronze img {
   max-width: 200px;
+}
+
+.gold img {
+  max-width: 350px;
+  padding-bottom: 50px;
 }
 
 .img-link img:hover {
@@ -110,6 +120,31 @@ h3 a {
 .noclick {
   pointer-events: none;
   cursor: default;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+
+.subscribe-row {
+  max-width: 500px;
+  margin: 0 auto !important;
+}
+
+.subscribe-input  {
+  background: rgba(255, 255, 255, 0.0) !important;
+  border: 2px solid white !important;
+  border-radius: 3px !important;
+  color: white !important;
+  opacity: 1 !important;
+  margin-bottom: 20px;
+}
+
+::-webkit-input-placeholder {
+  opacity: 1 !important;
 }
 
 #schedule {
