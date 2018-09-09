@@ -2828,7 +2828,7 @@ input, select, textarea {
 
 /* CTA */
 
-	#cta {
+	#subscribe {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
 		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/bg3.jpg");
@@ -2840,7 +2840,7 @@ input, select, textarea {
 		text-align: center;
 	}
 
-		#cta header {
+		#subscribe header {
 			margin-bottom: 2em;
 		}
 
@@ -2945,7 +2945,7 @@ input, select, textarea {
 
 		/* CTA */
 
-			#cta {
+			#subscribe {
 				padding: 4em;
 				background-attachment: scroll;
 			}
@@ -3026,7 +3026,7 @@ input, select, textarea {
 
 		/* CTA */
 
-			#cta {
+			#subscribe {
 				background-size: 15em, 15em, auto, cover;
 				padding: 3em;
 			}
@@ -3173,7 +3173,7 @@ input, select, textarea {
 
 		/* CTA */
 
-			#cta {
+			#subscribe {
 				margin: 0;
 			}
 
@@ -3524,7 +3524,7 @@ input, select, textarea {
 
 		/* CTA */
 
-			#cta {
+			#subscribe {
 				background-size: 10em, 10em, auto, cover;
 				padding: 3em 1.5em;
 			}
