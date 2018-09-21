@@ -28,11 +28,14 @@ html {
   padding-top: 10px;
 }
 
-.judge-name {
+.judge-name, .team-name  {
   text-transform: none !important;
   padding-top: 10px;
   margin-bottom: 5px;
   color: #3fb1a3;
+}
+.team-name a {
+  text-decoration: none !important;
 }
 
 h3 a {
@@ -59,7 +62,7 @@ h3 a {
     position:absolute;
 }
 
-.judge-image {
+.judge-image, .team-image {
   margin: 0 auto;
   border-radius: 50%;
   max-width: 200px;
