@@ -94,3 +94,13 @@
 		}
 
 })(jQuery);
+
+
+// Custom Functions
+// Nav Bar Active Items Toggle
+(function() {
+	var $menuItems = $("#nav-menu li a").on("click", function() {
+		$("#nav-menu li.current").removeClass("current");
+		$(this).parent().addClass("current");
+	});
+})();
