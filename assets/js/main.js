@@ -97,10 +97,30 @@
 
 
 // Custom Functions
-// Nav Bar Active Items Toggle
-(function() {
-	var $menuItems = $("#nav-menu li a").on("click", function() {
-		$("#nav-menu li.current").removeClass("current");
-		$(this).parent().addClass("current");
+$(document).ready(function () {
+	// Change menu active class while scrolling
+  $(document).on("scroll", onScroll);
+
+	// Add 'current' class when clicking on a menu item
+	$('#nav-menu li a').on('click', onClickMenu);
+});
+
+function onScroll() {
+	var offset = 5;
+	var scrollPos = $(document).scrollTop();
+	$('#nav-menu a').each(function () {
+			var currLink = $(this);
+			var refElement = $(currLink.attr("href"));
+			if (refElement.position().top - offset <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+				$('#nav-menu ul li').removeClass("current");
+				currLink.parent().addClass("current");
+			} else {
+				currLink.parent().removeClass("current");
+			}
 	});
-})();
+}
+
+function onClickMenu() {
+	$('#nav-menu li.current').removeClass('current');
+	$(this).parent().addClass('current');
+}
