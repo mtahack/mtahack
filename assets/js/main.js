@@ -106,7 +106,7 @@ $(document).ready(function () {
 });
 
 function onScroll() {
-	var offset = 5;
+	var offset = 100;
 	var scrollPos = $(document).scrollTop();
 	$('#nav-menu a').each(function () {
 			var currLink = $(this);
