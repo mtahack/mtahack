@@ -28,6 +28,10 @@ html {
   padding-top: 10px;
 }
 
+.calendar {
+  margin-top: 30px;
+}
+
 .judge-name, .team-name  {
   text-transform: none !important;
   padding-top: 10px;
