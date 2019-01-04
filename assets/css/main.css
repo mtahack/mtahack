@@ -505,6 +505,11 @@ input, select, textarea {
 
       .platinum img {
         margin-top: 40px;
+        max-width: 350px;
+      }
+
+      .checkmarx img {
+        padding-bottom: 0;
       }
 		}
 
