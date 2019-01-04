@@ -48,16 +48,16 @@
 					<h1 id="logo"><a href="#">MTA Hack></a></h1>
 					<nav id="nav">
 						<ul id="nav-menu">
-							<li class="always-active"><a href="#home">Home</a></li>
-							<li><a href="#theme">Theme</a></li>
-							<li><a href="#rules">Rules</a></li>
-							<li><a href="#sponsors">Sponsors</a></li>
-							<li><a href="#judges">Judges</a></li>
-							<li><a href="#schedule">Schedule</a></li>
-							<li><a href="#faq">FAQ</a></li>
-							<li><a href="#previous">2017</a></li>
-							<!-- <li><a href="/team">Team</a></li> -->
-							<li><a href="#subscribe" class="button primary">Sign Up!</a></li>
+							<li class="always-active"><a href="#home" class="hash">Home</a></li>
+							<li><a href="#theme" class="hash">Theme</a></li>
+							<li><a href="#rules" class="hash">Rules</a></li>
+							<li><a href="#sponsors" class="hash">Sponsors</a></li>
+							<li><a href="#judges" class="hash">Judges</a></li>
+							<li><a href="#schedule" class="hash">Schedule</a></li>
+							<li><a href="#faq" class="hash">FAQ</a></li>
+							<li><a href="#team" class="hash">Team</a></li>
+							<!-- <li><a href="/register" class="button primary register-button-menu">Register!</a></li> -->
+							<li><a href="#subscribe" class="button primary register-button-menu">Register</a></li>
 						</ul>
 					</nav>
 				</header>
@@ -83,8 +83,11 @@
 								</header>
 								<p>
 									<strong>When:</strong> <br>
-									April 11th - 12th, 2019
 								</p>
+								<div class="tooltip">
+									<a href="http://www.google.com/calendar/event?action=TEMPLATE&dates=20190411T060000Z%2F20190412T090000Z&text=MTA%20Hack%202019&location=The%20Academic%20College%20of%20Tel%20Aviv%E2%80%93Yaffo%2C%20School%20of%20Management%20and%20Economics&details=MTA%20Hack%202019%20Student%20Hackathon%20https%3A%2F%2Fmtahack.com" class="button calendar tooltip"><span class="icon fa-calendar"></span>&nbsp; April 11th - 12th, 2019</a>
+									<span class="tooltip-text">Add to Calendar</span>
+								</div>
 								<p>
 									<strong>Theme:</strong> <br>
 									Healthcare & Wellness
@@ -93,7 +96,7 @@
 									<strong>Where:</strong> <br>
 									The Academic College of TLV
 								</p>
-								<a href="http://www.google.com/calendar/event?action=TEMPLATE&dates=20190411T060000Z%2F20190412T090000Z&text=MTA%20Hack%202019&location=The%20Academic%20College%20of%20Tel%20Aviv%E2%80%93Yaffo%2C%20School%20of%20Management%20and%20Economics&details=MTA%20Hack%202019%20Student%20Hackathon%20https%3A%2F%2Fmtahack.com" class="button calendar"><span class="icon fa-calendar"></span>&nbsp; Add to Calendar</a>
+								<!-- <a href="/register" class="button primary register-button"></span>&nbsp; Register Now!</a> -->
 							</div>
 						</div>
 						<div class="col-1 col-0-normal col-0-narrow col-0-narrower black">
@@ -112,9 +115,6 @@
                 </h2>
 
 						<br>
-            <!-- <p><strong>What is a Hackathon?</strong></p>
-            <p>A Hackathon is an event when programmers and designers meet to do collaborative computer programming <br />
-                and provide a venue for self-expression and creativity through technology.</p> -->
 					</header>
 
 					<!-- Theme -->
@@ -133,12 +133,6 @@
 								<p>
 									We want you to create anything you'd like, just make healthcare and wellness smarter and better, by any means.
 								</p>
-
-								<!-- <footer>
-									<ul class="buttons">
-										<li><a href="#" class="button">Find Out More</a></li>
-									</ul>
-								</footer> -->
 
 							</div>
 							<div class="col-4 col-12-narrower imp-narrower">
@@ -179,9 +173,6 @@
 										<header>
 												<h3>Prizes</h3>
 										</header>
-										<!-- <p>1st place - <strong>10,000 NIS, </strong>
-										2nd place -  <strong>5,000 NIS, </strong>
-										3rd place - <strong>1,000 NIS</strong></p> -->
 										<p><strong>TBA</strong> - Prizes' amounts will be announced soon</p>
 								</section>
 							</div>
@@ -204,7 +195,13 @@
 							<h2>Our COOL <strong>sponsors</strong></h2>
 						</header>
 
-
+						<div class="row">
+							<div class="col-12 col-12-narrower">
+								<section class="sponsor-row">
+									<a href="https://www.innovid.com/" class="img-link platinum" target="_blank"><img src="./images/innovid.png" alt="Innovid" /></a>
+								</section>
+							</div>
+						</div>
 						<div class="row">
 							<div class="col-6 col-12-narrower">
 								<section class="sponsor-row">
@@ -220,7 +217,7 @@
 						<div class="row">
 							<div class="col-4 col-6-narrower">
 								<section class="sponsor-row">
-									<a href="https://www.sap.com/" class="img-link bronze" target="_blank"><img src="./images/sap.png" alt="SAP" /></a>
+									<a href="https://www.sap.com/" class="img-link bronze sap" target="_blank"><img src="./images/sap.png" alt="SAP" /></a>
 								</section>
 							</div>
 							<div class="col-4 col-6-narrower">
@@ -230,20 +227,15 @@
 							</div>
 							<div class="col-4 col-6-narrower">
 								<section>
-									<a href="https://www.aguda-mta.co.il/" class="img-link bronze" target="_blank"><img src="./images/aguda.png" alt="MTA Students Union" /></a>
+									<a href="https://www.aguda-mta.co.il/" class="img-link bronze aguda" target="_blank"><img src="./images/aguda.png" alt="MTA Students Union" /></a>
 								</section>
 							</div>
-							<div class="col-4 col-6-narrower">
+							<div class="col-6 col-6-narrower">
 								<section>
-									<a href="https://www.amakai.com/" class="img-link bronze" target="_blank"><img src="./images/akamai.png" alt="Akamai" /></a>
+									<a href="https://www.wix.com" class="img-link bronze wix" target="_blank"><img src="./images/wix1.png" alt="Wix" /></a>
 								</section>
 							</div>
-							<div class="col-4 col-6-narrower">
-								<section>
-									<a href="https://www.wix.com" class="img-link bronze" target="_blank"><img src="./images/wix1.png" alt="Wix" /></a>
-								</section>
-							</div>
-							<div class="col-4 col-6-narrower">
+							<div class="col-6 col-6-narrower">
 								<section>
 									<a href="https://www.mta.ac.il/" class="img-link bronze" target="_blank"><img src="./images/mta.jpg" alt="MTA"></a>
 								</section>
@@ -426,19 +418,65 @@
 					</div>
 				</section>
 
-				<!-- Previous Hacks -->
-				<section id="previous" class="wrapper style1 container special">
+				<!-- Team -->
+				<section id="team" class="wrapper style1 container special">
 					<header class="major">
-							<h2>Previous <strong>MTA Hacks</strong></h2>
-							<h3>See us on <strong><a href="/2017">MTA Hack 2017</strong></a></h3>
-
+							<h2>Our <strong>Team</strong></h2>
 					</header>
+
+					<div class="row">
+						<div class="col-3 col-6-normal col-12-narrower">
+
+							<section>
+								<img class="team-image" src="https://media.licdn.com/dms/image/C4D03AQHseetr26p2eA/profile-displayphoto-shrink_800_800/0?e=1550102400&v=beta&t=CDOiatROtC7lUX42eEm84ps8ny7KbSKte8UmQykEFAI" alt="" />
+								<header>
+									<h3 class="team-name"><a href="https://www.linkedin.com/in/yehonatan-alfasi/">Yehonatan Alfasi</a></h3>
+								</header>
+									<p>Co-Organizer</p>
+							</section>
+
+						</div>
+						<div class="col-3 col-6-normal col-12-narrower">
+
+							<section>
+								<img class="team-image" src="https://media.licdn.com/dms/image/C4E03AQG_AhJ3GNM8MA/profile-displayphoto-shrink_800_800/0?e=1550102400&v=beta&t=Uwhe6drqRn3EUN88K1GQRb15wUwZJ37VTm2knC12PRU" alt="" />
+								<header>
+									<h3 class="team-name"><a href="https://www.linkedin.com/in/saar-davidson/">Saar Davidson</a></h3>
+								</header>
+								<p>Co-Organizer</p>
+							</section>
+
+						</div>
+						<div class="col-3 col-6-normal col-12-narrower">
+
+							<section>
+								<img class="team-image" src="https://media.licdn.com/dms/image/C5603AQEIYXnYN8D-rw/profile-displayphoto-shrink_200_200/0?e=1551916800&v=beta&t=XdO1UHUXw-T9vqH4u_T5a5bcc7dUhgCPLgLCqicgXJE" alt="" />
+								<header>
+									<h3 class="team-name"><a href="https://www.linkedin.com/in/talkor/">Tal Koren</a></h3>
+								</header>
+								<p>Co-Organizer</p>
+							</section>
+
+						</div>
+						<div class="col-3 col-6-normal col-12-narrower">
+
+							<section>
+								<img class="team-image" src="https://media.licdn.com/dms/image/C4E03AQFzlzlrUt6DXQ/profile-displayphoto-shrink_800_800/0?e=1550102400&v=beta&t=gxUlgHCWuADmixtWksTFw9yNBHeWoyPXWtL8Fpn3zZ4" alt="" />
+								<header>
+									<h3 class="team-name"><a href="https://www.linkedin.com/in/asaf-yaron-97706b77/">Asaf Yaron</a></h3>
+								</header>
+								<p>Co-Organizer</p>
+							</section>
+
+						</div>
+					</div>
 				</section>
 
 			<!-- Subscribe -->
 				<section id="subscribe">
 
 					<header>
+						<!-- <h2>Subscribe to our <strong>Newsletter</strong></h2> -->
 						<h2>Registration is <strong>coming up soon!</strong></h2>
 					</header>
 					<footer>
@@ -453,6 +491,15 @@
 							</form>
 						</div>
 					</footer>
+				</section>
+
+				<!-- Previous Hacks -->
+				<section id="previous" class="wrapper style1 container special">
+					<header class="major">
+							<h2>Previous <strong>MTA Hacks</strong></h2>
+							<h3>See us on <strong><a href="/2017">MTA Hack 2017</strong></a></h3>
+
+					</header>
 				</section>
 
 			<!-- Footer -->

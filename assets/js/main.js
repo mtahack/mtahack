@@ -108,7 +108,7 @@ $(document).ready(function () {
 function onScroll() {
 	var offset = 100;
 	var scrollPos = $(document).scrollTop();
-	$('#nav-menu a').each(function () {
+	$('#nav-menu a.hash').each(function () {
 			var currLink = $(this);
 			var refElement = $(currLink.attr("href"));
 			if (refElement.position().top - offset <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {

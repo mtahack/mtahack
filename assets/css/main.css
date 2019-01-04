@@ -24,12 +24,45 @@ html {
 	opacity: 0;
 }
 
+#previous {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
 .inner p {
   padding-top: 10px;
 }
 
+.register-button {
+  margin-top: 40px;
+}
+
 .calendar {
-  margin-top: 30px;
+  border: 0 !important;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding: 0;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltip-text {
+  visibility: hidden;
+  width: 150px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
 }
 
 .judge-name, .team-name  {
@@ -69,8 +102,8 @@ h3 a {
 .judge-image, .team-image {
   margin: 0 auto;
   border-radius: 50%;
-  max-width: 200px;
-  max-height: 200px;
+  max-width: 150px;
+  max-height: 150px;
   overflow:hidden;
   vertical-align: top;
   -moz-transition: all 0.1s ease-in-out;
@@ -110,7 +143,20 @@ h3 a {
 }
 
 .bronze img {
-  max-width: 200px;
+  max-width: 180px;
+}
+
+.bronze.sap img {
+  height: 50px;
+}
+
+.bronze.aguda img {
+  height: 70px;
+}
+
+.bronze.wix img {
+  height: 40px;
+  margin-top: 15px;
 }
 
 .gold img {
@@ -453,10 +499,13 @@ input, select, textarea {
 				width: 100%;
 			}
 
-				.container.medium {
-					width: 100%;
-				}
+			.container.medium {
+				width: 100%;
+			}
 
+      .platinum img {
+        margin-top: 40px;
+      }
 		}
 
 /* Row */
@@ -3569,5 +3618,4 @@ input, select, textarea {
 				width: 50px;
 				height: 34px;
 			}
-
 	}
