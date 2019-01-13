@@ -529,6 +529,11 @@ input, select, textarea {
       .checkmarx img {
         padding-bottom: 0;
       }
+
+      .schedule-table {
+        width: 90%;
+        font-size: 14px;
+      }
 		}
 
 /* Row */
