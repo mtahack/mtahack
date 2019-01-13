@@ -67,7 +67,7 @@ html {
 }
 
 .reg-faq h3 {
-  font-weight: bold; 
+  font-weight: bold;
 }
 
 .tooltip:hover .tooltip-text {
@@ -172,8 +172,9 @@ h3 a {
 }
 
 .bronze.wix img {
-  height: 40px;
-  margin-top: 15px;
+  height: 30px;
+  margin-top: 20px;
+  max-width: 100%;
 }
 
 .gold img {
