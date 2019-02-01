@@ -157,7 +157,8 @@ h3 a {
 
 .img-link {
   text-decoration: none;
-  color: #FFFFFF;
+	color: #FFFFFF;
+	border: none;
 }
 
 .sponsor-row {
