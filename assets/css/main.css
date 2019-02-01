@@ -49,6 +49,25 @@ html {
   display: inline-block;
 }
 
+.button.facebook-event {
+	background: #0077B5 !important;
+	color: #fff;
+}
+
+.prehack-logo {
+	max-width: 10px;
+	max-height: 100px;
+}
+
+.prehack-logo.wix {
+	margin-top: 30px;
+	margin-bottom: 25px;
+}
+
+.prehack-logo.redhat {
+	padding: 20px 0;
+}
+
 .tooltip .tooltip-text {
   visibility: hidden;
   width: 150px;
