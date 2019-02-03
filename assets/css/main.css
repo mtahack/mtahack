@@ -111,6 +111,11 @@ html {
   margin-top: 50px;
 }
 
+.register-link-button-main {
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
 h3 a {
   color: #3fb1a3 !important;
   text-decoration: underline !important;
@@ -2943,7 +2948,7 @@ input, select, textarea {
 
 /* CTA */
 
-	#subscribe {
+	#previous {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
 		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/bg4.jpg");
@@ -2951,11 +2956,12 @@ input, select, textarea {
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
 		color: #fff;
-		padding: 5em;
+		padding-top: 2em;
+		padding-bottom: 0;
 		text-align: center;
 	}
 
-		#subscribe header {
+		#previous header {
 			margin-bottom: 2em;
 		}
 
@@ -3117,10 +3123,6 @@ input, select, textarea {
 
 				.wrapper.style1 {
 					padding: 0 2.5em;
-				}
-
-				.wrapper.style2 {
-					/* background-size: 15em; */
 				}
 
 				.wrapper.style4 {
@@ -3585,11 +3587,6 @@ input, select, textarea {
 
 				.wrapper.style1 {
 					padding: 0 1.5em;
-				}
-
-				.wrapper.style2 {
-					/* background-size: 10em;
-					padding: 2.25em 1.5em; */
 				}
 
 				.wrapper.style4 {
