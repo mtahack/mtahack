@@ -93,6 +93,17 @@ html {
   visibility: visible;
 }
 
+.button.resources-button {
+	margin-bottom: 80px;
+	background: #0077B5;
+	color: #fff;
+}
+
+.button.resources-button:hover {
+	opacity: 0.8;
+	background: #0077B5;
+}
+
 .judge-name, .team-name  {
   text-transform: none !important;
   padding-top: 10px;
@@ -211,6 +222,48 @@ h3 a {
   filter: none;
   transform: scale(1.1);
 
+}
+
+.links {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.links > li {
+	padding-left: 0;
+}
+
+.links > li > a {
+	border-bottom-style: solid; 
+}
+
+.resources li {
+	font-size: 0.9em;	
+}
+
+.resources h3 {
+	text-transform: none;
+	font-size: 1em;
+	font-weight: 500;
+	height: 50px;
+	padding-top: 10px;
+	text-align: center;
+	color: white;
+	background: #0077B5;
+}
+
+.resources ul {
+	padding: 0 20px;
+}
+
+.resources a {
+	color: #0077B5;
+}
+
+.resources .content {
+	box-sizing: border-box;
+	border: 0.5px solid #cac8c875;
+	margin: 20px;
 }
 
 .noclick {
@@ -2077,7 +2130,7 @@ input, select, textarea {
 			opacity: 0.1;
 			position: absolute;
 			top: 1.75em;
-			width: 43%;
+			width: 0;
 		}
 
 		header.special:before {
@@ -3174,7 +3227,7 @@ input, select, textarea {
 			}
 
 				header.special:before, header.special:after {
-					width: 40%;
+					width: 0;
 				}
 
 				header.special h2 + p {
@@ -3515,7 +3568,7 @@ input, select, textarea {
 				}
 
 					header.special:before, header.special:after {
-						width: 38%;
+						width: 0;
 					}
 
 					header.special .icon {
