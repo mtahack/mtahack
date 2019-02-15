@@ -41,7 +41,19 @@ html {
   border: 0 !important;
   margin-bottom: 0;
   padding-bottom: 0;
-  padding: 0;
+	padding: 0;
+	display: block !important;
+	width: 300px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.icon.fa-calendar {
+	position: relative;
+	cursor: default;
+	font-size: 3px !important;
+	position: static !important;
+	text-align: center;
 }
 
 .tooltip {
