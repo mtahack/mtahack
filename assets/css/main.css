@@ -51,7 +51,7 @@ html {
 .icon.fa-calendar {
 	position: relative;
 	cursor: default;
-	font-size: 3px !important;
+	font-size: 5px !important;
 	position: static !important;
 	text-align: center;
 }
