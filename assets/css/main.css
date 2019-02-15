@@ -105,12 +105,14 @@ html {
 }
 
 .judge-name, .team-name  {
-  text-transform: none !important;
+	text-transform: none !important;
   padding-top: 10px;
   margin-bottom: 5px;
   color: #3fb1a3;
 }
-.team-name a {
+
+.team-name a,
+.judge-name a {
   text-decoration: none !important;
 }
 
@@ -266,6 +268,19 @@ h3 a {
 	margin: 20px;
 }
 
+.linkedin-icon {
+	display: block;
+	position: relative;
+	top: 140px;
+	color: #3B5998;
+}
+
+.team-member a {
+	text-decoration: none;
+	color: black;
+	border: none;
+}
+
 .noclick {
   pointer-events: none;
   cursor: default;
@@ -336,7 +351,8 @@ h3 a {
 }
 
 /* .event-date {
-  text-transform: none !important;
+	text-transform: none !important;
+	text-transform: none !important;
   padding-bottom: 5px !important;
 } */
 
