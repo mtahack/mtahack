@@ -48,7 +48,7 @@ html {
 	margin: 0 auto;
 }
 
-.icon.fa-calendar {
+.icon.fa-calendar.pre-hack {
 	position: relative;
 	cursor: default;
 	font-size: 5px !important;
