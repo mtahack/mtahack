@@ -319,6 +319,14 @@ h3 a {
   margin-bottom: 20px;
 }
 
+.pre-hack-facebook-button {
+	margin-top: 20px !important;
+}
+
+.pre-hack-register {
+	margin-top: 10px !important;
+}
+
 ::-webkit-input-placeholder {
   opacity: 1 !important;
 }
