@@ -303,6 +303,17 @@ h3 a {
   margin: 0 auto !important;
 }
 
+.team a {
+	border: none;
+}
+
+.team img:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 1px 9px -1px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 1px 1px 9px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 1px 9px -1px rgba(0,0,0,0.75);
+}
+
 :target:before {
   display: block;
   content: "";
@@ -638,7 +649,7 @@ input, select, textarea {
 				max-width: 250px;
       }
 
-			.sap img,
+			.duda img,
 			.redhat img {
 				margin-top: 30px;
 			}
