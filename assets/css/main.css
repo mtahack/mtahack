@@ -116,7 +116,8 @@ html {
 	background: #0077B5;
 }
 
-.judge-name, .team-name  {
+.judge-name, 
+.team-name {
 	text-transform: none !important;
   padding-top: 10px;
   margin-bottom: 5px;
@@ -165,12 +166,13 @@ h3 a {
     position:absolute;
 }
 
-.judge-image, .team-image {
+.judge-image,
+.team-image {
   margin: 0 auto;
   border-radius: 50%;
   max-width: 150px;
   max-height: 150px;
-  overflow:hidden;
+  overflow: hidden;
   vertical-align: top;
   -moz-transition: all 0.1s ease-in-out;
   -webkit-transition: all 0.1s ease-in-out;
@@ -287,7 +289,8 @@ h3 a {
 	color: #3B5998;
 }
 
-.team-member a {
+.team-member a,
+.judge a {
 	text-decoration: none;
 	color: black;
 	border: none;
