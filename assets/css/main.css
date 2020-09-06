@@ -68,6 +68,7 @@ html {
 .button.facebook-event {
   background: #0077b5 !important;
   color: #fff;
+  margin-bottom: 40px;
 }
 
 .prehack-logo {
@@ -174,6 +175,7 @@ h3 a {
   position: absolute;
 }
 
+.previous-hack-image,
 .judge-image,
 .team-image {
   margin: 0 auto;
@@ -322,10 +324,12 @@ h3 a {
   margin: 0 auto !important;
 }
 
+.previous a,
 .team a {
   border: none;
 }
 
+.previous img:hover,
 .team img:hover {
   transform: scale(1.1);
   box-shadow: 1px 1px 9px -1px rgba(0, 0, 0, 0.75);
@@ -378,7 +382,7 @@ h3 a {
   background-attachment: scroll, scroll, scroll, fixed;
   background-color: #645862;
   background-image: url("images/light-bl.svg"), url("images/light-br.svg"),
-    url("images/overlay.png"), url("../../images/sv2.jpg") !important;
+    url("images/overlay.png"), url("../../images/backgrounds/sv2.jpg") !important;
   background-position: bottom left, bottom right, top left, top center;
   background-repeat: no-repeat, no-repeat, repeat, no-repeat;
   background-size: 25em, 25em, auto, cover;
@@ -2773,8 +2777,6 @@ button.small,
 
 .wrapper.style2 {
   background-color: #83d3c9;
-  background-image: url("images/overlay.png"), url("images/overlay.png"),
-    url("images/overlay.png"), url("../../images/bg2.jpg");
   background-position: bottom left, bottom right, top left, top center;
   background-repeat: no-repeat, no-repeat, repeat, no-repeat;
   -webkit-background-size: cover;
@@ -2782,6 +2784,16 @@ button.small,
   -o-background-size: cover;
   background-size: cover;
   color: #fff;
+}
+
+.wrapper.theme1 {
+  background-image: url("images/overlay.png"), url("images/overlay.png"),
+  url("images/overlay.png"), url("../../images/backgrounds/bg1.jpg");
+}
+
+.wrapper.theme2 {
+  background-image: url("images/overlay.png"), url("images/overlay.png"),
+  url("images/overlay.png"), url("../../images/backgrounds/bg2.jpg");
 }
 
 .wrapper.style2 input[type="button"]:hover,
@@ -3094,7 +3106,7 @@ button.small,
   background-attachment: scroll, scroll, scroll, fixed;
   background-color: #645862;
   background-image: url("images/light-bl.svg"), url("images/light-br.svg"),
-    url("images/overlay.png"), url("../../images/bg.jpg");
+    url("images/overlay.png"), url("../../images/backgrounds/bg.jpg");
   background-position: bottom left, bottom right, top left, top center;
   background-repeat: no-repeat, no-repeat, repeat, no-repeat;
   background-size: 25em, 25em, auto, cover;
@@ -3193,13 +3205,15 @@ body.index #main {
   background-attachment: scroll, scroll, scroll, fixed;
   background-color: #645862;
   background-image: url("images/light-tl.svg"), url("images/light-tr.svg"),
-    url("images/overlay.png"), url("../../images/bg4.jpg");
+    url("images/overlay.png"), url("../../images/backgrounds/bg4.jpg");
   background-position: top left, top right, top left, bottom center;
   background-repeat: no-repeat, no-repeat, repeat, no-repeat;
   background-size: 25em, 25em, auto, cover;
   color: #fff;
   padding-top: 2em;
-  padding-bottom: 0;
+  padding-bottom: 5em;
+  padding-left: 9em;
+  padding-right: 9em;
   text-align: center;
 }
 
