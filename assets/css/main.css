@@ -24,11 +24,6 @@ html {
   opacity: 0;
 }
 
-#previous {
-  margin-top: 100px;
-  margin-bottom: 50px;
-}
-
 .inner p {
   padding-top: 10px;
 }
@@ -2799,8 +2794,7 @@ button.small,
 }
 
 .wrapper.theme2 {
-  background-image: url("images/overlay.png"), url("images/overlay.png"),
-  url("images/overlay.png"), url("../../images/backgrounds/bg2.jpg");
+  background-image: url("images/overlay2.png"), url("../../images/backgrounds/bg2.jpg");
 }
 
 .wrapper.style2 input[type="button"]:hover,
@@ -3272,7 +3266,7 @@ body.index #main {
   /* Section/Article */
 
   header.special {
-    padding-top: 5.5em;
+    padding-top: 0em;
     margin-bottom: 4em;
   }
 }
