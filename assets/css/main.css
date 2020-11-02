@@ -24,6 +24,11 @@ html {
   opacity: 0;
 }
 
+#previous {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
 .inner p {
   padding-top: 10px;
 }
