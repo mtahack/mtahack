@@ -228,16 +228,19 @@ h3 a {
   padding-bottom: 50px;
 }
 
+.silver img {
+}
+
 .bronze img {
   max-width: 180px;
 }
 
-.bronze.duda img {
-  height: 60px;
+.silver.duda img {
+  height: 180px;
 }
 
 .bronze.aguda img {
-  height: 70px;
+  height: 100px;
 }
 
 .bronze.wix img {
