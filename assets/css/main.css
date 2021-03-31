@@ -224,29 +224,28 @@ h3 a {
 }
 
 .platinum img {
-  max-width: 500px;
+  max-width: 475px;
+  padding-bottom: 50px;
+}
+
+.gold {
+  padding-bottom: 50px;
+}
+
+.gold img {
+  max-width: 315px;
+}
+
+.silver {
   padding-bottom: 50px;
 }
 
 .silver img {
+  max-width: 210px;
 }
 
 .bronze img {
-  max-width: 180px;
-}
-
-.silver.duda img {
-  height: 180px;
-}
-
-.bronze.aguda img {
-  height: 100px;
-}
-
-.bronze.wix img {
-  height: 30px;
-  margin-top: 20px;
-  max-width: 100%;
+  max-width: 140px;
 }
 
 .partner img {
@@ -256,11 +255,6 @@ h3 a {
 
 .partner.hamakor img {
   height: 80px;
-}
-
-.gold img {
-  max-width: 350px;
-  padding-bottom: 50px;
 }
 
 .img-link img:hover {
