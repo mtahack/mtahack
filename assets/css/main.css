@@ -3323,12 +3323,6 @@ body.index #main {
     margin-left: 1em;
   }
 
-  /* Banner */
-
-  #banner {
-    background-attachment: scroll;
-  }
-
   /* CTA */
 
   #subscribe {
