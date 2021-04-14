@@ -233,7 +233,7 @@ h3 a {
 }
 
 .gold img {
-  max-width: 650px;
+  max-width: 350px;
 }
 
 .silver {
@@ -241,11 +241,11 @@ h3 a {
 }
 
 .silver img {
-  max-width: 210px;
+  max-width: 170px;
 }
 
 .bronze img {
-  max-width: 140px;
+  max-width: 130px;
 }
 
 .partner img {
