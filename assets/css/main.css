@@ -65,12 +65,6 @@ html {
   display: inline-block;
 }
 
-.button.facebook-event {
-  background: #0077b5 !important;
-  color: #fff;
-  margin-bottom: 40px;
-}
-
 .prehack-logo {
   max-width: 10px;
   max-height: 100px;
@@ -2745,8 +2739,8 @@ input[type="submit"].primary,
 input[type="reset"].primary,
 button.primary,
 .button.primary {
-  background: #83d3c9;
-  border-color: #83d3c9;
+  background: #e8aa0f;
+  border-color: #e8aa0f;
   color: #fff !important;
 }
 
@@ -2755,8 +2749,28 @@ input[type="submit"].primary:hover,
 input[type="reset"].primary:hover,
 button.primary:hover,
 .button.primary:hover {
-  background: #96dad1 !important;
-  border-color: #96dad1 !important;
+  background: #e8c05c !important;
+  border-color: #e8c05c !important;
+}
+
+input[type="button"].secondary,
+input[type="submit"].secondary,
+input[type="reset"].secondary,
+button.secondary,
+.button.secondary {
+  background: #3d2b53 !important;
+  border-color: #3d2b53;
+  color: #fff;
+}
+
+input[type="button"].secondary:hover,
+input[type="submit"].secondary:hover,
+input[type="reset"].secondary:hover,
+button.secondary:hover,
+.button.secondary:hover {
+  background: #66537d !important;
+  border-color: #66537d;
+  color: #fff;
 }
 
 input[type="button"].fit,
@@ -3114,7 +3128,7 @@ button.small,
   }
 }
 
-#banner {
+#banner .nineteen {
   background-attachment: scroll, scroll, scroll, fixed;
   background-color: #645862;
   background-image: url("images/light-bl.svg"), url("images/light-br.svg"),
@@ -3125,6 +3139,37 @@ button.small,
   color: #fff;
   cursor: default;
   padding: 5em 0;
+  text-align: center;
+}
+
+#banner .twenty-one {
+  background-attachment: scroll, scroll, fixed;
+  background-color: #645862;
+  background-image: url("images/light-br.svg"), url("images/overlay.png"), url("../../images/backgrounds/bg7.png");
+  background-position: bottom right, top left, top center;
+  background-repeat: no-repeat, repeat, no-repeat;
+  background-size:25em, auto, cover;
+  color: #fff;
+  cursor: default;
+  padding: 5em 0;
+  text-align: center;
+}
+
+#banner .twenty-one .inner {
+  -moz-animation: reveal-banner 1s 0.25s ease-in-out;
+  -webkit-animation: reveal-banner 1s 0.25s ease-in-out;
+  -ms-animation: reveal-banner 1s 0.25s ease-in-out;
+  animation: reveal-banner 1s 0.25s ease-in-out;
+  -moz-animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  display: inline-block;
+  opacity: 0;
+  padding: 3em;
+  margin: 2em;
   text-align: center;
 }
 
