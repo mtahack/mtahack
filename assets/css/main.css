@@ -2952,7 +2952,7 @@ button.small,
   border: solid 1px transparent;
   color: inherit;
   display: inline-block;
-  line-height: 1em;
+  line-height: 2em;
   padding: 0.6em 0.75em;
   text-decoration: none;
 }
@@ -2962,7 +2962,7 @@ button.small,
 #header nav ul li input[type="reset"],
 #header nav ul li button,
 #header nav ul li .button {
-  font-size: 1em;
+  font-size: 2em;
   min-width: 0;
   width: auto;
 }
