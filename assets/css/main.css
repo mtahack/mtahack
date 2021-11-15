@@ -3164,7 +3164,7 @@ button.small,
   -webkit-animation-fill-mode: forwards;
   -ms-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.575);
   color: #fff;
   display: inline-block;
   opacity: 0;
