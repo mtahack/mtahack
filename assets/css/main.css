@@ -321,7 +321,28 @@ h3 a {
   max-width: 500px;
   margin: 0 auto !important;
 }
+div#container{
+  height: 500px;
+  width: 500px;
+  display: flex;
+}
 
+div#inner1{
+  height: 175px;
+  flex: 1;
+}
+
+div#inner2{
+  height: 175px;
+  flex: 1;
+  margin-left:25px;
+}
+
+div#inner3{
+  height: 175px;
+  flex: 1;
+  margin-left:25px;
+}
 .previous a,
 .team a {
   border: none;
