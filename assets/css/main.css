@@ -180,7 +180,7 @@ h3 a {
 .judge-image,
 .team-image {
   margin: 0 auto;
-  border-radius: 33%;
+  border-radius: 50%;
   max-width: 150px;
   max-height: 150px;
   overflow: hidden;
@@ -327,22 +327,7 @@ div#container{
   display: flex;
 }
 
-div#inner1{
-  height: 175px;
-  flex: 1;
-}
 
-div#inner2{
-  height: 175px;
-  flex: 1;
-  margin-left:25px;
-}
-
-div#inner3{
-  height: 175px;
-  flex: 1;
-  margin-left:25px;
-}
 .previous a,
 .team a {
   border: none;
