@@ -376,7 +376,7 @@ h3 a {
   margin-bottom: 0px;
 }
 #faq{
-  background-color:mistyrose;
+  background-image: url("../../images/backgrounds/bg10.jpeg");
 }
 #schedule {
   background-attachment: scroll, scroll, scroll, fixed;
