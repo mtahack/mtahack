@@ -321,12 +321,7 @@ h3 a {
   max-width: 500px;
   margin: 0 auto !important;
 }
-.previous{
-  display: flex;
-}
-.previous > div {
-  flex : 1;
-}
+
 .previous a,
 .team a {
   border: none;
