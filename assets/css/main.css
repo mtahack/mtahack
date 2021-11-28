@@ -375,7 +375,9 @@ h3 a {
 .container.no-margin {
   margin-bottom: 0px;
 }
-
+#faq{
+  background-image: url("../../images/backgrounds/bg10.jpeg")
+}
 #schedule {
   background-attachment: scroll, scroll, scroll, fixed;
   background-color: #645862;
