@@ -321,12 +321,6 @@ h3 a {
   max-width: 500px;
   margin: 0 auto !important;
 }
-div#container{
-  height: 500px;
-  width: 500px;
-  display: flex;
-}
-
 
 .previous a,
 .team a {
