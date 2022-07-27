@@ -63,6 +63,7 @@ html {
 .tooltip {
   position: relative;
   display: inline-block;
+  width: 100%;
 }
 
 .prehack-logo {
@@ -2928,14 +2929,13 @@ button.small,
 #header nav {
   letter-spacing: 0.075em;
   position: absolute;
-  right: 1.5em;
   text-transform: uppercase;
   top: 0.75em;
 }
 
 #header nav ul {
   list-style: none;
-  padding-left: 0;
+  display: inline-block;
 }
 
 #header nav ul li {
